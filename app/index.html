@@ -1,0 +1,84 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Pre select</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="build/css/main.css">
+</head>
+
+<body>
+    <ul>
+    	<li>
+    		<select data-pre-selector="config">
+    		    <option value="">-- None Selected --</option>
+    		    <option data-options="1" value="15">DELEGATE: TV Sales</option>
+    		    <option data-options="38" value="31">DELEGATE: Channels</option>
+    		    <option data-options="26" value="3">DELEGATE: Content - Indie</option>
+    		    <option value="62">DELEGATE: Content - Guest</option>
+    		    <option data-options="35" value="63">DELEGATE: Formats</option>
+    		    <option data-options="21" value="56">STAFF: Ad Sales</option>
+    		    <option data-options="21" value="33">STAFF: TV Sales</option>
+    		    <option data-options="21" value="34">STAFF: Consumer Products</option>
+    		    <option data-options="21" value="35">STAFF: Publishing</option>
+    		    <option data-options="21" value="36">STAFF: Ecommerce</option>
+    		    <option data-options="21" value="37">STAFF: Live Events</option>
+    		    <option data-options="21" value="38">STAFF: Audio &amp; Music</option>
+    		    <option selected data-options="21" value="39">STAFF: Motion Gallery</option>
+    		    <option data-options="21" value="40">STAFF: Brands</option>
+    		    <option data-options="21" value="41">STAFF: Finance</option>
+    		    <option data-options="21" value="42">STAFF: Comms</option>
+    		    <option data-options="21" value="43">STAFF: Operations &amp; Strategy</option>
+    		    <option data-options="21" value="44">STAFF: Business &amp; Legal Affairs</option>
+    		    <option data-options="21" value="45">STAFF: Content</option>
+    		    <option data-options="21" value="46">STAFF: Formats</option>
+    		    <option data-options="21" value="47">STAFF: HR</option>
+    		    <option data-options="21" value="48">STAFF: Digital</option>
+    		    <option data-options="21" value="49">STAFF: Channels</option>
+    		    <option data-options="40" value="54">Staff - Content</option>
+    		    <option data-options="29" value="18">Staff</option>
+    		    <option data-options="34" value="65">GUEST: WEX</option>
+    		    <option data-options="34" value="66">GUEST: Other</option>
+    		    <option data-options="34" value="22">GUEST: Events Team Guests</option>
+    		    <option data-options="34" value="64">GUEST: Marketing Summit</option>
+    		    <option data-options="30" value="53">TALENT: Artist</option>
+    		    <option data-options="24" value="24">CREW: Events Team</option>
+    		    <option data-options="24" value="25">CREW: Support Team</option>
+    		    <option data-options="24" value="27">CREW: IT inc F1</option>
+    		    <option data-options="24" value="28">CREW: External</option>
+    		</select>
+    	</li>
+
+    	<li>
+    		<select name="config">
+    		    <option selected="selected" value="1">TV Sales</option>
+    		    <option value="38">Channels</option>
+    		    <option value="33">TV Sales (no PB booth)</option>
+    		    <option value="39">Channels (No PB booth)</option>
+    		    <option value="26">Content Indie</option>
+    		    <option value="40">Content BBC</option>
+    		    <option value="35">Formats</option>
+    		    <option value="24">Crew</option>
+    		    <option value="21">Staff</option>
+    		    <option value="29">Client</option>
+    		    <option value="30">Talent</option>
+    		    <option value="34">Guest</option>
+    		</select>
+    	</li>
+    </ul>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="build/js/main.js"></script>
+    <script>
+    	$('[data-pre-selector]').preselect();
+    </script>
+</body>
+
+</html>

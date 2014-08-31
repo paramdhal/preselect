@@ -1,0 +1,16 @@
+{
+  "name": "preselect",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paramdhal/preselect",
+  "description": "Pre select options in a select element based on value of another select element",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {}
+}
