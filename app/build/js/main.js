@@ -19,7 +19,7 @@
       $el = $(this.element);
       $el.on('change', $.proxy(this.preselect, this));
       name = $el.data(this.settings.select);
-      return this.select = $("select[name=" + name + "]");
+      return this.select = $("select[name='" + name + "']");
     };
 
     Plugin.prototype.preselect = function(e) {

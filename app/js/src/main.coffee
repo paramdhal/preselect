@@ -17,7 +17,7 @@ do ($ = jQuery, window, document) ->
 			$el.on 'change', $.proxy @preselect,this
 
 			name = $el.data @settings.select
-			@select = $("select[name=#{name}]")
+			@select = $("select[name='#{name}']")
 
 		preselect: (e)->
 			option = $(@element)
